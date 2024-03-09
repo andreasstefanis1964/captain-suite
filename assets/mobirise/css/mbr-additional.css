@@ -1612,7 +1612,7 @@ blockquote {
   position: relative;
   padding: 30px 40px 32px;
   border-radius: 0 0 4px 4px;
-  border: 1px solid #ddebe9;
+  border: 1px solid #cce4f0;
   border-top: 1px solid transparent;
   transition: border .3s;
 }
