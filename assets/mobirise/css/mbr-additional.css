@@ -1276,6 +1276,10 @@ blockquote {
   position: absolute;
   top: 0;
 }
+.cid-u37ZpLXiP6 .mbr-section-title,
+.cid-u37ZpLXiP6 .mbr-section-btn {
+  color: #0b1661;
+}
 .cid-u3jSGrAF60 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1314,7 +1318,7 @@ blockquote {
   }
 }
 .cid-u3jSGrAF60 .mbr-desc {
-  color: #706cff;
+  color: #003d59;
 }
 .cid-u3jSGrAF60 .mbr-text {
   color: #000000;
@@ -1346,7 +1350,7 @@ blockquote {
 }
 .cid-u3jWqvXQ3U .mbr-iconfont {
   font-size: 82px;
-  color: #46877e;
+  color: #2b3c98;
 }
 .cid-u3jWqvXQ3U .card-box {
   padding-left: 28px;
@@ -1567,7 +1571,7 @@ blockquote {
   height: 119px;
   bottom: -90px;
   right: -95px;
-  background-image: url("../../../assets/images/logo-hellasbnb-280x337.png");
+  background-image: url("../../../assets/images/logo-transparent-captains-suite-303x303.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2040,6 +2044,9 @@ blockquote {
   .cid-u3k4ansfqS .form-container {
     border-radius: 30px 30px 0 0 !important;
   }
+}
+.cid-u3k4ansfqS .wrapper .row .title {
+  color: #3a6686;
 }
 .cid-u38m0sNLJg {
   min-height: 114px !important;
