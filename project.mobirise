@@ -58,7 +58,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 86,
+    "uniqCompNum": 89,
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
@@ -1858,15 +1858,35 @@
           ]
         },
         {
-          "_name": "forms01",
-          "_sourceTheme": "creativem4",
-          "_customHTML": "<section class=\"map1 forms01 creativem4_forms01\" group=\"Forms\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Titles\" name=\"showTitle\" checked condition=\"textBlocks>0\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked condition=\"textBlocks>0\">\n        <input type=\"range\" inline name=\"textBlocks\" title=\"Text Blocks\" min=\"0\" max=\"3\" value=\"3\" step=\"1\">\n        <header>Icons</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <select name=\"iconsAlign\" title=\"Icons Align\" condition=\"showIcons\">\n            <option value=\"left\" selected>left</option>\n            <option value=\"center\">center</option>\n            <option value=\"right\">right</option>\n        </select>\n        <hr>\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Left Column Bg 1\" name=\"columnBg1\" value=\"#6dc4f0\">\n        <input type=\"color\" title=\"Left Column Bg 2\" name=\"columnBg2\" value=\"#0b1661\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <input type=\"color\" title=\"Bg Color\" name=\"bgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n\n    <div class=\"container wrapper\">\n        <div class=\"row main-row\">\n            <div class=\"col-sm-12 col-lg-4 col-md-6 px-0 text-block\">\n                <div class=\"content-panel\">\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks > 0\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">VISIT US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Captain Suite, Dardanellion 62, 17124 Nea Smyrni (Athens), Greece<br>Licence No:&nbsp;00000776672</p>\n                    </div>\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks>1\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">CALL US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">+30 697 671 3377</p>\n                    </div>\n                    <div class=\"text-block\" mbr-if=\"textBlocks>2\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">LET'S DO SMTH\n                            AMAZING.\n                        </h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Fill this out so we can learn more about you and your needs.\n                        </p>\n                    </div>\n                    <div class=\"social-list pl-0 mb-0\" mbr-if=\"showIcons\" mbr-class=\"{'pt-4':textBlocks > 0 }\">\n                        <div class=\"soc-item\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div mbr-form class=\"col-sm-12 col-lg-8 col-md-6 form-container\">\n                <!---Formbuilder Form--->\n                <form action name=\"My Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out\n                            the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                        </div>\n                    </div>\n                    <div class=\"dragArea form-row\">\n                        <div class=\"col-md-12\">\n                            <h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-section-title mbr-fonts-style pb-3 title\" data-app-selector=\".wrapper .row .title\">Tell us about your dream.\n                            </h2>\n                        </div>\n                        <div class=\"col-md-12 col-lg-6 form-group\" data-for=\"firstname\">\n                            <input type=\"text\" name=\"firstname\" placeholder=\"First Name\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div data-for=\"email\" class=\"col-md-12 col-lg-6 form-group\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email*\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                        </div>\n                        <div data-for=\"phone\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"lastname\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"lastname\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"message\" class=\"col-md-12   form-group\">\n                            <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"col-md-12 input-group-btn \">\n                            <a type=\"submit\" class=\"btn btn-form btn-primary\">Do it</a>\n                        </div>\n                    </div>\n                </form>\n                <!---Formbuilder Form--->\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_name": "map01",
+          "_sourceTheme": "devm5",
+          "_customHTML": "<section class=\"map2\" group=\"Maps\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Map</header>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/devm5/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/devm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Map</b>\n            </h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Find us here\n            </h4>\n        </div>\n        <div class=\"google-map\" mbr-map=\"googleMap\">\n        </div>\n    </div>\n</section>",
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
             ".google-map": {
-              "height": "50rem",
+              "height": "30rem",
               "position": "relative",
               "iframe": {
                 "height": "100%",
@@ -1874,7 +1894,6 @@
               },
               "[data-state-details]": {
                 "color": "#6b6763",
-                "font-family": "Montserrat",
                 "height": "1.5em",
                 "margin-top": "-0.75em",
                 "padding-left": "1.25rem",
@@ -1890,157 +1909,16 @@
               "&[data-state=\"loading\"]": {
                 "[data-state-details]": {
                   "display": "none"
-                },
-                "&::after": {}
-              }
-            },
-            ".wrapper": {
-              "margin-top": "-10rem",
-              "background": "@cardBg",
-              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
-              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
-              "border-radius": "40px",
-              "border-collapse": "separate",
-              "-webkit-perspective": "1px",
-              "perspective": "1px",
-              "overflow": "hidden",
-              ".row": {
-                "-webkit-box-pack": "end",
-                "-ms-flex-pack": "end",
-                "justify-content": "flex-end",
-                "-webkit-box-align": "stretch",
-                "-ms-flex-align": "stretch",
-                "align-items": "stretch",
-                "border-radius": "40px",
-                "border-collapse": "separate",
-                "-webkit-perspective": "1px",
-                "perspective": "1px",
-                ".btn": {
-                  "border-radius": "30px",
-                  "padding": "0.8rem 3rem !important"
-                },
-                ".title": {
-                  "color": "@primaryColor"
-                }
-              },
-              ".form-container": {
-                "padding": "3rem",
-                "border-radius": "40px",
-                "border-collapse": "separate",
-                "-webkit-perspective": "1px",
-                "perspective": "1px",
-                "overflow": "hidden"
-              }
-            },
-            ".content-panel": {
-              "padding": "3rem",
-              "background": "linear-gradient(45deg, @columnBg1, @columnBg2)",
-              "height": "100%",
-              "border-top-right-radius": "0.25rem",
-              "border-bottom-right-radius": "0.25rem",
-              "overflow": "hidden",
-              "display": "flex",
-              "-webkit-box-orient": "vertical",
-              "-webkit-box-direction": "normal",
-              "-ms-flex-direction": "column",
-              "flex-direction": "column"
-            },
-            ".mbr-text": {
-              "color": "#efefef"
-            },
-            ".form-control": {
-              "border-radius": "10px !important",
-              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
-              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
-              "min-height": "40px"
-            },
-            "textarea.form-control": {
-              "min-height": "170px"
-            },
-            ".social-list": {
-              "margin-top": "auto",
-              "padding-left": "0",
-              "margin-bottom": "0",
-              "display": "flex",
-              "-ms-flex-wrap": "wrap",
-              "flex-wrap": "wrap",
-              "& when (@iconsAlign = \"left\")": {
-                "-webkit-box-pack": "start",
-                "-ms-flex-pack": "start",
-                "justify-content": "flex-start"
-              },
-              "& when (@iconsAlign = \"center\")": {
-                "-webkit-box-pack": "center",
-                "-ms-flex-pack": "center",
-                "justify-content": "center"
-              },
-              "& when (@iconsAlign = \"right\")": {
-                "-webkit-box-pack": "end",
-                "-ms-flex-pack": "end",
-                "justify-content": "flex-end"
-              },
-              ".mbr-iconfont-social": {
-                "font-size": "1.2rem",
-                "color": "#fff"
-              },
-              ".mbr-iconfont:before": {
-                "padding": "0.5rem",
-                "border": "2px solid",
-                "border-radius": "100px",
-                "border-style": "dotted"
-              },
-              ".soc-item": {
-                "margin": "15px 3px 0px 3px"
-              },
-              "a": {
-                "margin": "0",
-                "opacity": "0.7",
-                "-webkit-transition": "0.2s linear",
-                "transition": "0.2s linear",
-                "&:hover": {
-                  "opacity": "1"
                 }
               }
-            },
-            "@media (max-width: 767px)": {
-              ".container": {
-                "max-width": "80% !important"
-              },
-              ".wrapper": {
-                "margin-top": "0",
-                "border-radius": "40px",
-                ".main-row": {
-                  "-webkit-box-orient": "vertical",
-                  "-webkit-box-direction": "reverse",
-                  "-ms-flex-direction": "column-reverse",
-                  "flex-direction": "column-reverse",
-                  ".text-block": {
-                    ".content-panel": {
-                      "border-radius": "0 0 30px 30px !important",
-                      ".social-list": {
-                        "margin-left": "auto",
-                        "margin-right": "auto"
-                      }
-                    }
-                  }
-                }
-              },
-              ".form-container": {
-                "border-radius": "30px 30px 0 0 !important"
-              }
-            },
-            ".wrapper .row .title": {
-              "color": "#3a6686"
             }
           },
-          "_cid": "u3k4ansfqS",
-          "_anchor": "forms01-2a",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_cid": "u6BLSeyRBR",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "map01-2e"
         },
         {
           "alias": false,
