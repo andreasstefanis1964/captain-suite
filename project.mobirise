@@ -58,7 +58,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 85,
+    "uniqCompNum": 86,
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
@@ -1843,7 +1843,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/35d0225d51/sykologos/\" data-label_1=\"SIKOLOGOS\" data-label_2=\"WEATHER\" data-theme=\"pure\">SIKOLOGOS WEATHER</a>\n[JS_CODE_0]",
+          "_customHTML": "<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/35d0225d51/nea smirni/\" data-label_1=\"SIKOLOGOS\" data-label_2=\"WEATHER\" data-theme=\"pure\">NEA SMYRNI WEATHER</a>\n[JS_CODE_0]",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -2041,6 +2041,102 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = \"video\")": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".line": {
+              "width": "100%",
+              "height": "2px",
+              "background": "#efefef",
+              "margin-bottom": "2rem"
+            },
+            "a": {
+              "position": "relative",
+              "width": "fit-content",
+              "&:before": {
+                "content": "''",
+                "position": "absolute",
+                "width": "100%",
+                "transition": "all 0.3s",
+                "height": "1px",
+                "background": "currentColor",
+                "left": "0",
+                "bottom": "0"
+              },
+              "&:hover": {
+                "&:before": {
+                  "width": "0"
+                }
+              }
+            },
+            ".copyright": {
+              "color": "#232323"
+            },
+            ".center": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "flex-end",
+              ".row-links-soc": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "flex-end",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                },
+                "@media (max-width: 992px)": {
+                  "justify-content": "center"
+                }
+              }
+            },
+            "p": {
+              "@media (max-width: 992px)": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "footer2",
+          "_sourceTheme": "powerm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"powerm5 footer2\" group=\"Footers\" global once=\"footers\"\r\n  mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\r\n\r\n  <mbr-parameters>\r\n    <header>Size</header>\r\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\r\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\r\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\r\n    <header>Show/Hide</header>\r\n    <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\"\r\n      condition=\"showLinks\">\r\n    <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\r\n    <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\r\n    <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\r\n    <header>Background</header>\r\n    <fieldset type=\"background\" name=\"bg\" parallax>\r\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" parallax>\r\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\r\n    </fieldset>\r\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\r\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" name=\"fallBackImage\"\r\n      condition=\"bg.type === 'video'\">\r\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\r\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\"\r\n      condition=\"overlay && bg.type !== 'color'\">\r\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\"\r\n      condition=\"overlay && bg.type !== 'color'\">\r\n  </mbr-parameters>\r\n\r\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\r\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\"\r\n    mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\r\n  </div>\r\n\r\n  <div class=\"container-fluid\">\r\n    <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\r\n      <div class=\"col-12\">\r\n        <div class=\"line\" mbr-if=\"showLine\">\r\n        </div>\r\n      </div>\r\n      <div class=\"col-12 col-md-6 col-lg center\">\r\n        <p class=\"mbr-fonts-style copyright\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\"\r\n          mbr-if=\"showCopy\">\r\n          © Copyright 2030 Mobirise - All Rights Reserved\r\n        </p>\r\n      </div>\r\n      <div class=\"col-12 col-md-6 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\r\n        <div class=\"row-links\">\r\n          <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\r\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\"\r\n              data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Privacy Policy</a></li>\r\n\r\n\r\n\r\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\"\r\n              data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Terms of Service</a></li>\r\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\"\r\n              data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Cookies Settings</a></li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>",
+          "_cid": "u6BC7CnCj7",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer2-2d"
         }
       ]
     },
