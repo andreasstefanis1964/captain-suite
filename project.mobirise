@@ -58,7 +58,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 89,
+    "uniqCompNum": 90,
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
@@ -1975,9 +1975,371 @@
           },
           "_name": "slider2",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.png\" condition=\"showFigure && showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#cce4f0\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c0e8e2\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">AREAS to visit in ATHENS</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tMidway between central Athens and the coast is the lush family-friendly neighbourhood of Nea Smyrni (tram from Syntagma to Aghia Fotinis, or an easy 25-minute walk). Its many squares are host to an interesting history: the neighbourhood gained its name from the former Greek city of Smyrna, now Izmir, from where refugees settled the area in the 1920s. Car-free Nea Smyrni Square is at the neighbourhood’s heart and is spectacular, with fountains, shops, restaurants, trendy cafes and bars to suit all ages, trends and budgets. With a plethora of outdoor entertainment during the summer, it’s a real find not on the typical tourist route. Venture beyond the square and you’ll find Nea Smyrni Alsos park, a large green oasis with aleppo pines, cypress and stone pines and good for strolling. It also has a jogging track, an outdoor gym and a cafe.</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-0502-copy-800x600.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">1 day</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Nea Smyrni \"car free\" Square</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-503-1920x1440.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\"Shopping &amp; Fun\" in Nea Smyrni</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/panoramablick-auf-die-akropolis-von-athen-griechenland-800x533.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Monastiraki, Plaka (Old town Athens)</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/view-spinalonga-island-crete-1200x800.jpg\" alt title>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Spinaloga</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Crete, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
+          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.png\" condition=\"showFigure && showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#cce4f0\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked>\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c0e8e2\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">UNIQUE</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">EXPERIENCES in NEA SMYRNI</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tMidway between central Athens and the coast is the lush family-friendly neighbourhood of Nea Smyrni (tram from Syntagma to Aghia Fotinis, or an easy 25-minute walk). Its many squares are host to an interesting history: the neighbourhood gained its name from the former Greek city of Smyrna, now Izmir, from where refugees settled the area in the 1920s. Car-free Nea Smyrni Square is at the neighbourhood’s heart and is spectacular, with fountains, shops, restaurants, trendy cafes and bars to suit all ages, trends and budgets. With a plethora of outdoor entertainment during the summer, it’s a real find not on the typical tourist route. Venture beyond the square and you’ll find Nea Smyrni Alsos park, a large green oasis with aleppo pines, cypress and stone pines and good for strolling. It also has a jogging track, an outdoor gym and a cafe.</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-0502-copy-800x600.jpg\" alt title data-slide-to=\"0\" data-bs-slide-to=\"0\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">1 day</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Nea Smyrni \"car free\" Square</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-503-1920x1440.jpg\" alt title data-slide-to=\"1\" data-bs-slide-to=\"1\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\"Shopping &amp; Fun\"&nbsp;</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Nea Smyrni, Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-4185-800x600.jpg\" alt title data-slide-to=\"2\" data-bs-slide-to=\"2\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Relax in Platia (Square)</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Nea Smyrni, Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-642-800x600.jpg\" alt title data-slide-to=\"3\" data-bs-slide-to=\"3\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Enjoy cozy Cafes &amp; Restaurants out- or indoor</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Nea Smyrni, Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-1953-800x600.jpg\" alt title data-slide-to=\"4\" data-bs-slide-to=\"4\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Visit one of the weekly markets</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Nea Smyrni, Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
           "_cid": "tbz0uWIfbw",
           "_anchor": "slider2-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "margin-top": "20px",
+              "margin-bottom": "50px",
+              "padding-right": "70px"
+            },
+            ".title__block": {
+              "padding-left": "96px",
+              "margin-bottom": "20px",
+              "& when not (@showText)": {
+                "margin-bottom": "120px"
+              },
+              ".mbr-section-title": {
+                "display": "inline-block",
+                "margin-bottom": "25px"
+              }
+            },
+            ".figure when (@showFigure)": {
+              "display": "block",
+              "position": "relative",
+              "z-index": "1",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "z-index": "-1",
+                "width": "119px",
+                "height": "119px",
+                "bottom": "-90px",
+                "right": "-95px",
+                "background-image": "url(@figure)",
+                "background-repeat": "no-repeat",
+                "background-size": "cover"
+              }
+            },
+            ".slide-content": {
+              "justify-content": "center",
+              "text-align": "left",
+              ".media-container-row": {
+                "flex-grow": "1"
+              },
+              ".slider__item": {
+                "position": "relative",
+                "border-radius": "4px",
+                "border": "2px solid transparent",
+                "opacity": "1",
+                "transition": "border .3s linear",
+                "&:hover": {
+                  "border": "2px solid @successColor",
+                  ".slider__content": {
+                    "border": "1px solid transparent"
+                  }
+                },
+                ".slider__image": {
+                  "width": "100%",
+                  "img": {
+                    "border-radius": "4px 4px 0 0",
+                    "width": "100%",
+                    "height": "100%",
+                    "object-fit": "cover"
+                  }
+                }
+              }
+            },
+            ".slider__content": {
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "100%",
+              "min-height": "320px",
+              "position": "relative",
+              "padding": "30px 40px 32px",
+              "border-radius": "0 0 4px 4px",
+              "border": "1px solid @borderColor",
+              "border-top": "1px solid transparent",
+              "transition": "border .3s",
+              "& when not (@cardImage)": {
+                "border-top": "1px solid @borderColor",
+                "border-radius": "4px"
+              },
+              ".slider__content-wrap": {
+                "margin-bottom": "38px",
+                "min-height": "210px"
+              },
+              ".slider__subtitle": {
+                "margin-bottom": "8px",
+                "color": "@successColor"
+              },
+              ".slider__title": {
+                "margin-bottom": "13px"
+              },
+              ".slider__text": {
+                "margin-bottom": "0"
+              }
+            },
+            ".link": {
+              "display": "block",
+              "margin-bottom": "0",
+              "white-space": "nowrap",
+              "a": {
+                "font-weight": "700"
+              },
+              "span": {
+                "display": "inline-block !important",
+                "transition": "all 0.3s ease",
+                "margin-left": "13px"
+              },
+              "&:hover span": {
+                "transform": "translateX(9px)"
+              }
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".mbr-iconfont": {
+              "transition": "0.3s",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".cloneditem-1, .cloneditem-2, .cloneditem-3, .cloneditem-4, .cloneditem-5": {
+              "display": "none"
+            },
+            ".col-lg-15": {
+              "flex": "0 0 100%",
+              "max-width": "100%",
+              "position": "relative",
+              "min-height": "1px",
+              "padding-right": "10px",
+              "padding-left": "10px",
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".col-lg-15": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "width": "20%"
+              },
+              ".carousel-inner": {
+                "padding-bottom": "3px",
+                "&.slides2": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(50%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-50%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                },
+                "&.slides3": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                }
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".carousel-inner .carousel-item .cloneditem-2": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 1440px)": {
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "width": "99px",
+                  "height": "99px"
+                }
+              },
+              ".slider__content .slider__title": {
+                "font-size": "25px",
+                "line-height": "30px"
+              },
+              ".slider__content": {
+                "min-height": "235px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".title__block": {
+                "& when not (@showText)": {
+                  "margin-bottom": "50px"
+                },
+                ".mbr-section-title": {
+                  "margin-bottom": "0"
+                },
+                "padding-left": "63px"
+              },
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "display": "none"
+                }
+              },
+              ".mbr-text": {
+                "padding-right": "0",
+                "margin-bottom": "10px"
+              },
+              ".carousel-item .slider__item": {
+                "margin-right": "0"
+              },
+              ".slider__content": {
+                "padding": "18px 18px 22px",
+                "min-height": "197px"
+              },
+              ".carousel-controls": {
+                ".carousel-control-next": {
+                  "right": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                },
+                ".carousel-control-prev": {
+                  "left": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-controls": {
+                "display": "none"
+              }
+            },
+            ".embla__slide": {
+              "display": "flex",
+              "justify-content": "center",
+              "position": "relative",
+              "min-width": "34%",
+              "@media (max-width: 1280px)": {
+                "min-width": "50%"
+              },
+              "@media (max-width: 768px)": {
+                "min-width": "100%",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
+              }
+            },
+            ".embla__button--next, .embla__button--prev": {
+              "display": "flex"
+            },
+            ".embla__button": {
+              "top": "50%",
+              "position": "absolute",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "outline": "none",
+              "transition": "all .3s",
+              "border-radius": "50%",
+              "border": "2px solid @arrowsColor",
+              "background-color": "transparent",
+              "span": {
+                "color": "@arrowsColor",
+                "font-size": "18px"
+              },
+              "& when not (@arrows)": {
+                "display": "none"
+              },
+              "& when not (@arrowsMobile)": {
+                "@media (max-width: 768px)": {
+                  "display": "none"
+                }
+              },
+              "&:disabled": {
+                "cursor": "default",
+                "display": "none"
+              },
+              "&:hover": {
+                ".mobi-mbri-left": {
+                  "transform": "translateX(-5px)"
+                },
+                ".mobi-mbri-right": {
+                  "transform": "translateX(5px)"
+                }
+              },
+              "&.embla__button--next, &.embla__button--prev": {
+                "opacity": "1",
+                "width": "44px",
+                "height": "44px"
+              },
+              "&.embla__button--prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.embla__button--next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "89%",
+                "left": "80%"
+              }
+            },
+            ".embla": {
+              "position": "relative",
+              "width": "100%"
+            },
+            ".embla__viewport": {
+              "overflow": "hidden",
+              "width": "100%"
+            },
+            ".embla__viewport.is-draggable": {
+              "cursor": "grab"
+            },
+            ".embla__viewport.is-dragging": {
+              "cursor": "grabbing"
+            },
+            ".embla__container": {
+              "display": "flex",
+              "user-select": "none",
+              "-webkit-touch-callout": "none",
+              "-khtml-user-select": "none",
+              "-webkit-tap-highlight-color": "transparent",
+              "@media (max-width: 768px)": {
+                "margin-left": "1.3rem",
+                "margin-right": "1.3rem",
+                "& .embla__slide:first-child": {
+                  "margin-left": "2rem !important"
+                },
+                "& .embla__slide:last-child": {
+                  "margin-right": "2rem !important"
+                }
+              }
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"slider2 voyagem4_slider2 mbr-embla\" group=\"Sliders &amp; Galleries\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"embla\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked=\"\">\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.png\" condition=\"showFigure &amp;&amp; showTitle\">\n\t\t<header>Carousel</header>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n\t\t<input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n\t\t<input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked=\"\">\n\t\t<header>Cards</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\">\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#cce4f0\" name=\"borderColor\">\n\t\t<input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked=\"\">\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#c0e8e2\" selected=\"\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\n\t</mbr-parameters>\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">AREAS to visit in ATHENS</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tMidway between central Athens and the coast is the lush family-friendly neighbourhood of Nea Smyrni (tram from Syntagma to Aghia Fotinis, or an easy 25-minute walk). Its many squares are host to an interesting history: the neighbourhood gained its name from the former Greek city of Smyrna, now Izmir, from where refugees settled the area in the 1920s. Car-free Nea Smyrni Square is at the neighbourhood’s heart and is spectacular, with fountains, shops, restaurants, trendy cafes and bars to suit all ages, trends and budgets. With a plethora of outdoor entertainment during the summer, it’s a real find not on the typical tourist route. Venture beyond the square and you’ll find Nea Smyrni Alsos park, a large green oasis with aleppo pines, cypress and stone pines and good for strolling. It also has a jogging track, an outdoor gym and a cafe.</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"start\" data-contain-scroll=\"trimSnaps\">\n\t\t<div class=\"embla__viewport container-fluid\">\n\t\t\t<div class=\"embla__container\">\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-0502-copy-800x600.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">1 day</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Nea Smyrni \"car free\" Square</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/img-503-1920x1440.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\"Shopping &amp; Fun\" in Nea Smyrni</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/panoramablick-auf-die-akropolis-von-athen-griechenland-800x533.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">2 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Monastiraki, Plaka (Old town Athens)</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Athens, Greece\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"embla__slide slider-image item\" mbr-style=\"{'padding-left': gap + 'rem', 'padding-right': gap + 'rem'}\">\n\t\t\t\t\t<div class=\"slide-content\">\n\t\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t\t<div class=\"col-md-12 p-0\">\n\t\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/view-spinalonga-island-crete-1200x800.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">Spinaloga</h5>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">Crete, Greece</p>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"embla__button embla__button--prev\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t</button>\n\t\t<button class=\"embla__button embla__button--next\">\n\t\t\t<span class=\"mobi-mbri mobi-mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t</button>\n\t</div>\n\n\n</section>",
+          "_anchor": "slider2-2h",
+          "_isUserblock": true,
+          "_cid": "u6DrnqKRVS",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
