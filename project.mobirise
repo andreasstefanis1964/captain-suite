@@ -62,7 +62,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "qdazunijar",
+    "mbrsiteDomain": "wtaubepyim",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -94,8 +94,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Captain Suite Nea Smyrni Athens",
+        "meta_descr": "2-bed-/bathroom Suite in the best neighborhood in Europe according Guardian",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
