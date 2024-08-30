@@ -40,7 +40,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Captain Suite Nea Smyrni Athens",
+    "name": "Captain Suite in Athens",
     "versionFirst": "5.9.11",
     "siteFonts": [
       {
@@ -62,7 +62,7 @@
     "versionPublish": "5.9.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "z7mfc1kyt7",
+    "mbrsiteDomain": "r4s4ezhmdr",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -88,7 +88,8 @@
       "underlineLink": false,
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "google-analytics": "<meta name=\"title\" content=\"Captain´s Suite in Nea Smyrni\">\n<meta name=\"description\" content=\"Cozy 2-bed-/bathroom residence 89 sqm, 2 balconies, private parking, flat-screen TV, streaming services, A/C, soundproof windows, solar hot water.\">\n<meta name=\"keywords\" content=\"Captain´s Suite in Nea Smyrni, vacation rentals Athens, city trips Athens, \">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"language\" content=\"English\">\n<meta name=\"revisit-after\" content=\"2 days\">\n<meta name=\"author\" content=\"Andreas Stefanis\">"
   },
   "pages": {
     "index.html": {
