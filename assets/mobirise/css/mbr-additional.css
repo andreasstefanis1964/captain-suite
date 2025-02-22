@@ -1401,6 +1401,45 @@ blockquote {
   color: #303030;
   margin-top: 10px;
 }
+.cid-uDxTUynpXh {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background-color: #f6f6f6;
+}
+.cid-uDxTUynpXh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uDxTUynpXh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uDxTUynpXh .cards-row {
+  row-gap: 50px;
+}
+.cid-uDxTUynpXh .card-wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.cid-uDxTUynpXh .mbr-iconfont {
+  font-size: 82px;
+  color: #2b3c98;
+}
+.cid-uDxTUynpXh .card-box {
+  padding-left: 28px;
+}
+.cid-uDxTUynpXh .card-title {
+  color: #303030;
+}
+.cid-uDxTUynpXh .card-text {
+  color: #303030;
+  margin-top: 10px;
+}
 .cid-s14xqCLrIp {
   padding-top: 7rem;
   padding-bottom: 10rem;

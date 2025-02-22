@@ -58,7 +58,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 95,
+    "uniqCompNum": 96,
     "versionPublish": "6.0.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
@@ -1021,6 +1021,65 @@
           "_anchor": "afeatures1-2j",
           "_isUserblock": true,
           "_cid": "u6HuoZrLWU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "afeatures1",
+          "_sourceTheme": "charitym5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".cards-row": {
+              "row-gap": "50px"
+            },
+            ".card-wrapper": {
+              "display": "flex",
+              "align-items": "flex-start",
+              "width": "100%"
+            },
+            ".mbr-iconfont": {
+              "font-size": "82px",
+              "color": "@iconColor"
+            },
+            ".card-box": {
+              "padding-left": "28px"
+            },
+            ".card-title": {
+              "color": "#303030"
+            },
+            ".card-text": {
+              "color": "#303030",
+              "margin-top": "10px"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features1 charitym5\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#2b3c98\" selected>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#f6f6f6\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f6f6f6\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row {{contentAlign}} cards-row\">\n\n            <div class=\"card col-12 col-lg-4\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v1-fire-alarm\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>2x WiFi smoke alarm detectors&nbsp;</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">The X-Sense XS01 Smoke Alarm is designed for efficiency and safety with a&nbsp; compact design for enhanced smoke detection.</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-lg-4\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v1-fire-extinguisher\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <b>Kaver Foam Fire Extinguisher</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Designed to extinguish fires by using foam to suffocate the flames, cutting off the oxygen supply, and cooling the area down. It is particularly effective for Class A (solid materials like wood, paper, cloth) and Class B (flammable liquids like oil, gasoline, and solvents) fires.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-lg-4\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v3-smart-tv-hd\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>45\" SAMSUNG smart TV with streaming capabilities</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Experience unprecedented levels of realism in your home entertainment. With twice the resolution of standard HD TVs, the Samsung Full HD TV J5100 immerses you in a world of truly immersive, breathtaking viewing. The rich, vibrant colors of Full HD images will transform your favorite TV shows and movies.<br></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-lg-4\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont imind-first-aid\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            <b>First Aid Kit</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">A first aid kit is a portable collection of medical supplies and equipment designed to provide quick treatment for injuries and medical emergencies. It contains basic items that can help treat minor wounds, alleviate pain, and provide first aid until professional medical help arrives.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-lg-4\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont imind-keypad\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Secure Access in the building through code keypad</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">The main entrance of the building is possible only to those who know the secret code. So we can ensure a high level of security.&nbsp;Enter the code received shortly before arrival via the keyboard, and you get instant access in the building.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-lg-4\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <span mbr-icon class=\"mbr-iconfont icon54-v1-security-camera3\"></span>\n                    <div class=\"card-box\" mbr-if=\"showTitle || showText\">\n                        <h4 class=\"card-title mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Video Doorbell Two-way audio, HD video</b></h4>\n                        <p class=\"card-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-text\">Only for use as \"Doorbell\" in the main entrance of the apartment, in order to ensure a high level of secutity for our guests. The communication can take place at any time and anywhere through our smartphone with 1080p HD day and infrared night video, and two-way audio.</p>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "afeatures1-2n",
+          "_isUserblock": true,
+          "_cid": "uDxTUynpXh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
