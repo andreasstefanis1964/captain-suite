@@ -59,10 +59,10 @@
       "currency": "USD"
     },
     "uniqCompNum": 96,
-    "versionPublish": "6.0.0",
+    "versionPublish": "6.1.11",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "0yae1y0wqq",
+    "mbrsiteDomain": "koisxkm7nb",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
