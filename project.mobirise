@@ -40,7 +40,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Captain Suite in Athens",
+    "name": "Captain 2-bedroom Suite in Athens",
     "versionFirst": "5.9.11",
     "siteFonts": [
       {
@@ -62,7 +62,7 @@
     "versionPublish": "6.1.16",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "hm180z2aiy",
+    "mbrsiteDomain": "ocizgpixrv",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
