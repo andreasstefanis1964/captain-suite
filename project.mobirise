@@ -62,7 +62,7 @@
     "versionPublish": "6.1.16",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "dr3xcqyk4c",
+    "mbrsiteDomain": "hm180z2aiy",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -89,7 +89,7 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "google-analytics": "<meta name=\"title\" content=\"Captain Suite in Athens\">\n<meta name=\"description\" content=\"Soundproofed Vacation rental, 2-bed-/bathrooms,balconies, private parking, flat-screen TV, streaming services, A/C, heating, solar hot water, free wifi\">\n<meta name=\"keywords\" content=\"vacation rental athens, luxury apartement athens, nea smirni bnb, suite athens, 2-bedroom suite\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"language\" content=\"English\">\n<meta name=\"revisit-after\" content=\"1 days\">\n<meta name=\"author\" content=\"Andreas Stefanis\">"
+    "google-analytics": "<!-- Essential Meta Tags -->\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Captain suite, a cozy 89 sqm 2-bed-/bathroom residence in Athens</title>\n<meta name=\"description\" content=\"This property offers 89 sqm, access on the 3rd floor to 2 balconies each 10 sqm., private parking, 2-bedrooms, 2 bathrooms, 75&quot; flat-screen TV with streaming services, A/C &amp; heating, soundproof windows, solar hot water.\">\n<meta name=\"keywords\" content=\"Vacation rental apartment, Athens, Nea Smyrni\">\n\n<!-- SEO Meta Tags -->\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"content-language\" content=\"en\">\n<meta name=\"revisit-after\" content=\"7 days\">"
   },
   "pages": {
     "index.html": {
