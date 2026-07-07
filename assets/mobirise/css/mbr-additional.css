@@ -739,11 +739,6 @@ blockquote {
   font-size: 1.0125rem;
   line-height: 1;
 }
-*:focus-visible {
-  outline: red solid 2px !important;
-  outline-offset: 2px !important;
-  transition: outline 0.2s ease-in-out;
-}
 .cid-u382Ehw2v9 {
   min-height: 114px !important;
   position: relative;
@@ -3349,18 +3344,6 @@ blockquote {
   .cid-vit0GnSNpo .embla__container .embla__slide:last-child {
     margin-right: 2rem !important;
   }
-}
-#custom-html-2c {
-  /* Type valid CSS here */
-}
-#custom-html-2c div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-2c p {
-  font-size: 60px;
-  color: #777;
 }
 .cid-u6HurlLfDm {
   padding-top: 0px;
