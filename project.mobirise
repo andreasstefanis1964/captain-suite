@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "privacy-policy.html",
     "theme": {
       "name": "voyagem4",
       "title": "VoyageM4",
@@ -40,7 +40,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Captain Suite in Athens",
+    "name": "Captain 2-bedroom Suite in Athens",
     "versionFirst": "5.9.11",
     "siteFonts": [
       {
@@ -58,11 +58,11 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "uniqCompNum": 98,
-    "versionPublish": "6.1.16",
+    "uniqCompNum": 117,
+    "versionPublish": "6.1.12",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-captains-suite-dark-blue-128x128_1.png",
-    "mbrsiteDomain": "ocizgpixrv",
+    "mbrsiteDomain": "e9xbqiyvwe",
     "usedWebp": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
@@ -89,7 +89,8 @@
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "google-analytics": "<!-- Essential Meta Tags -->\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Captain suite, a cozy 89 sqm 2-bed-/bathroom residence in Athens</title>\n<meta name=\"description\" content=\"This property offers 89 sqm, access on the 3rd floor to 2 balconies each 10 sqm., private parking, 2-bedrooms, 2 bathrooms, 75&quot; flat-screen TV with streaming services, A/C &amp; heating, soundproof windows, solar hot water.\">\n<meta name=\"keywords\" content=\"Vacation rental apartment, Athens, Nea Smyrni\">\n\n<!-- SEO Meta Tags -->\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"content-language\" content=\"en\">\n<meta name=\"revisit-after\" content=\"7 days\">"
+    "google-analytics": "<!-- Essential Meta Tags -->\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Captain suite, a cozy 89 sqm 2-bed-/bathroom residence in Athens</title>\n<meta name=\"description\" content=\"This property offers 89 sqm, access on the 3rd floor to 2 balconies each 10 sqm., private parking, 2-bedrooms, 2 bathrooms, 75&quot; flat-screen TV with streaming services, A/C &amp; heating, soundproof windows, solar hot water.\">\n<meta name=\"keywords\" content=\"Vacation rental apartment, Athens, Nea Smyrni\">\n\n<!-- SEO Meta Tags -->\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"content-language\" content=\"en\">\n<meta name=\"revisit-after\" content=\"7 days\">",
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -695,7 +696,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"menu voyagem4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Position</header>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<!--  -->\n\t\t<header>Menu</header>\n\t\t<input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"50\" max=\"150\" step=\"5\" value=\"95\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<input type=\"range\" title=\"Icons Amount\" name=\"iconsAmount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<select name=\"imageCount\" title=\"Image Count\">\n\t\t\t<option value=\"1\" selected>None</option>\n\t\t\t<option value=\"2\">1</option>\n\t\t\t<option value=\"3\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"5\">4</option>\n\t\t</select>\n\t\t<input type=\"image\" title=\"Image 1\" name=\"menuImage1\" value=\"@PROJECT_PATH@/assets/images/dsc_0629%20copy-2000x1333.jpg\" condition=\"imageCount > 1\">\n\t\t<input type=\"image\" title=\"Image 2\" name=\"menuImage2\" value=\"@PROJECT_PATH@/assets/images/dsc-791-2000x1333.jpg\" condition=\"imageCount > 2\">\n\t\t<input type=\"image\" title=\"Image 3\" name=\"menuImage3\" value=\"@PROJECT_PATH@/assets/images/dsc-776-2000x1333.jpg\" condition=\"imageCount > 3\">\n\t\t<input type=\"image\" title=\"Image 4\" name=\"menuImage4\" value=\"@PROJECT_PATH@/assets/images/lakkas-villas-areti-luxury-cottage-1-740x560.jpg\" condition=\"imageCount > 4\">\n\t\t<header>Color</header>\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#b4a990\">\n\t\t<input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#eef5f4\">\n\t\t<input type=\"color\" title=\"Menu\" name=\"menuColor\" value=\"#eef5f4\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n\t\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"index.html\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.webp\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'px'}\" title>\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption mbr-bold text-primary\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">VoyageM4</a></span>\n\t\t\t</div>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2-BEDROOM SUITE</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NEA SMYRNI</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ATHENS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BEACH ESCAPES</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DAILY TRIPS in ATTICA</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://book.roompanda.com/captain-suite\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\">&nbsp;</span>BOOK NOW</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#forms01-2k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT US</a></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"iconsAmount > 0\">\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-user-2 mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-twitter-square fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" class=\"mbr-section-btn\">\n\t\t\t\t<a class=\"btn btn-primary-outline\" href=\"#\" data-app-placeholder=\"Type Text\">Get In Touch</a>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_customHTML": "<section class=\"menu voyagem4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Position</header>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<!--  -->\n\t\t<header>Menu</header>\n\t\t<input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"50\" max=\"150\" step=\"5\" value=\"95\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<input type=\"range\" title=\"Icons Amount\" name=\"iconsAmount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<select name=\"imageCount\" title=\"Image Count\">\n\t\t\t<option value=\"1\" selected>None</option>\n\t\t\t<option value=\"2\">1</option>\n\t\t\t<option value=\"3\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"5\">4</option>\n\t\t</select>\n\t\t<input type=\"image\" title=\"Image 1\" name=\"menuImage1\" value=\"@PROJECT_PATH@/assets/images/dsc_0629%20copy-2000x1333.jpg\" condition=\"imageCount > 1\">\n\t\t<input type=\"image\" title=\"Image 2\" name=\"menuImage2\" value=\"@PROJECT_PATH@/assets/images/dsc-791-2000x1333.jpg\" condition=\"imageCount > 2\">\n\t\t<input type=\"image\" title=\"Image 3\" name=\"menuImage3\" value=\"@PROJECT_PATH@/assets/images/dsc-776-2000x1333.jpg\" condition=\"imageCount > 3\">\n\t\t<input type=\"image\" title=\"Image 4\" name=\"menuImage4\" value=\"@PROJECT_PATH@/assets/images/lakkas-villas-areti-luxury-cottage-1-740x560.jpg\" condition=\"imageCount > 4\">\n\t\t<header>Color</header>\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#b4a990\">\n\t\t<input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#eef5f4\">\n\t\t<input type=\"color\" title=\"Menu\" name=\"menuColor\" value=\"#eef5f4\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n\t\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"index.html\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.webp\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'px'}\" title>\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption mbr-bold text-primary\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">VoyageM4</a></span>\n\t\t\t</div>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2-BEDROOM SUITE</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NEA SMYRNI</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ATHENS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BEACH ESCAPES</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DAILY TRIPS in ATTICA</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://ibe.channex.io/online-booking-captain-suite\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\">&nbsp;</span>BOOK NOW</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#forms01-2k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT US</a></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"iconsAmount > 0\">\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-user-2 mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-twitter-square fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" class=\"mbr-section-btn\">\n\t\t\t\t<a class=\"btn btn-primary-outline\" href=\"#\" data-app-placeholder=\"Type Text\">Get In Touch</a>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
           "_cid": "u382Ehw2v9",
           "_anchor": "menu1-9",
           "_protectedParams": [],
@@ -706,7 +707,7 @@
         {
           "_name": "aheader4",
           "_sourceTheme": "charitym5",
-          "_customHTML": "<section class=\"header4 charitym5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/img-4908-2000x1125.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#FFFFFF\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/charitym5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#303030\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Captain´s Suite in Nea Smyrni</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">A cozy 2-bed-/bathroom residence with 89 sqm.</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">In one of the best city neighbourhoods in Europe according \"<a href=\"https://www.theguardian.com/travel/2020/feb/10/10-best-city-neighbourhoods-europe-readers-travel-tips\" class=\"text-warning\" target=\"_blank\">The Guardian</a>\"</p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://book.roompanda.com/captain-suite\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; BOOK ONLINE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4 charitym5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/img-4908-2000x1125.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#FFFFFF\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/charitym5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#303030\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Captain´s Suite in Nea Smyrni</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">A cozy 2-bed-/bathroom residence with 89 sqm.</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">In one of the best city neighbourhoods in Europe according \"<a href=\"https://www.theguardian.com/travel/2020/feb/10/10-best-city-neighbourhoods-europe-readers-travel-tips\" class=\"text-warning\" target=\"_blank\">The Guardian</a>\"</p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://ibe.channex.io/online-booking-captain-suite\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; BOOK ONLINE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
@@ -3639,7 +3640,7 @@
           },
           "_name": "footer2",
           "_sourceTheme": "powerm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"powerm5 footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n    <header>Show/Hide</header>\n    <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"showLinks\">\n    <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n    <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n    <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n\n  <div class=\"container-fluid\">\n    <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n      <div class=\"col-12\">\n        <div class=\"line\" mbr-if=\"showLine\">\n        </div>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg center\">\n        <p class=\"mbr-fonts-style copyright\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" mbr-if=\"showCopy\">\n          © Copyright 2024-2026&nbsp;<a href=\"https://ela-tourism-technologies.com\" class=\"text-primary\">A.S ELA TOURISM TECHNOLOGIES LTD </a>- All Rights Reserved</p>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\n        <div class=\"row-links\">\n          <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Privacy Policy</a></li>\n\n\n\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Terms of Service</a></li>\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Cookies Settings</a></li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"powerm5 footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n    <header>Show/Hide</header>\n    <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"showLinks\">\n    <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n    <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n    <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n\n  <div class=\"container-fluid\">\n    <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n      <div class=\"col-12\">\n        <div class=\"line\" mbr-if=\"showLine\">\n        </div>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg center\">\n        <p class=\"mbr-fonts-style copyright\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" mbr-if=\"showCopy\">\n          © Copyright 2024-2026&nbsp;<a href=\"https://ela-tourism-technologies.com\" class=\"text-primary\">A.S ELA TOURISM TECHNOLOGIES LTD </a>- All Rights Reserved</p>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\n        <div class=\"row-links\">\n          <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"privacy-policy.html#top\" class=\"text-black text-primary\">Privacy Policy</a></li>\n\n\n\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Terms of Service</a></li>\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Cookies Settings</a></li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_cid": "u6BC7CnCj7",
           "_anchor": "footer2-2d",
           "_protectedParams": [],
@@ -3664,6 +3665,1067 @@
           "_global": false,
           "_once": "chat",
           "_params": {}
+        }
+      ]
+    },
+    "privacy-policy.html": {
+      "settings": {
+        "title": "Privacy Policy",
+        "meta_descr": "2-bedroom and two bathroom suite for relaxed vacations or business trips in Athens and Attica region",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": "1"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "114px !important",
+            "position": "relative",
+            "overflow": "visible",
+            "background": "@menuBgColor",
+            ".nav-link,.navbar-caption": {
+              "font-weight": "700",
+              "transition": "all 0.3s linear"
+            },
+            ".navbar-dropdown .navbar-brand span": {
+              "vertical-align": "0"
+            },
+            ".container-fluid": {
+              "padding-left": "15px !important",
+              "padding-right": "15px !important"
+            },
+            ".nav-link.text-primary:hover, .nav-link.text-primary:focus": {
+              "color": "@primaryColor !important"
+            },
+            "& when (@showItems)": {
+              ".nav-link": {
+                "position": "relative",
+                "line-height": "1",
+                "margin": "0 !important",
+                "padding": "10px 20px !important",
+                "&:hover": {
+                  "&:before": {
+                    "opacity": "1"
+                  }
+                },
+                "&:before": {
+                  "content": "''",
+                  "bottom": "0",
+                  "width": "~'calc(100% - 36px)'",
+                  "left": "18px",
+                  "height": "3px",
+                  "position": "absolute",
+                  "opacity": "0",
+                  "z-index": "-1",
+                  "background-color": "@secondaryColor",
+                  "transition": "opacity 0.3s linear"
+                },
+                "@media (max-width: 991px)": {
+                  "margin": "0 !important"
+                }
+              }
+            },
+            ".icons-menu": {
+              "line-height": "0"
+            },
+            ".icons__wrap": {
+              "display": "inline-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "width": "29px",
+              "height": "29px",
+              "font-size": "29px",
+              "margin-left": "15px"
+            },
+            ".navbar-nav .nav-item:nth-child(2)": {
+              ".dropdown-menu": {
+                ".dropdown-item": {
+                  "width": "247px"
+                },
+                "@media (min-width: 992px)": {
+                  ".dropdown": {
+                    "display": "inline-block"
+                  }
+                }
+              }
+            },
+            ".dropdown-menu": {
+              ".menu__images": {
+                "display": "flex",
+                "transform": "translateY(-11px)"
+              },
+              "& when (@imageCount > '1')": {
+                "a": {
+                  "overflow": "hidden"
+                },
+                "a > .image1": {
+                  "width": "250px",
+                  "height": "208px",
+                  "transition": "all 0.3s",
+                  "background-image": "url(@menuImage1)",
+                  "background-position": "center",
+                  "background-size": "100% 100%",
+                  "background-repeat": "no-repeat",
+                  "&:hover": {
+                    "transform": "scale(1.3)"
+                  }
+                }
+              },
+              "& when (@imageCount > '2')": {
+                "a > .image2": {
+                  "width": "250px",
+                  "height": "208px",
+                  "transition": "all 0.3s",
+                  "background-image": "url(@menuImage2)",
+                  "background-position": "center",
+                  "background-size": "100% 100%",
+                  "background-repeat": "no-repeat",
+                  "&:hover": {
+                    "transform": "scale(1.3)"
+                  }
+                }
+              },
+              "& when (@imageCount > '3')": {
+                "a > .image3": {
+                  "width": "250px",
+                  "height": "208px",
+                  "transition": "all 0.3s",
+                  "background-image": "url(@menuImage3)",
+                  "background-position": "center",
+                  "background-size": "100% 100%",
+                  "background-repeat": "no-repeat",
+                  "&:hover": {
+                    "transform": "scale(1.3)"
+                  }
+                }
+              },
+              "& when (@imageCount > '4')": {
+                "a > .image4": {
+                  "width": "250px",
+                  "height": "208px",
+                  "transition": "all 0.3s",
+                  "background-image": "url(@menuImage4)",
+                  "background-position": "center",
+                  "background-size": "100% 100%",
+                  "background-repeat": "no-repeat",
+                  "&:hover": {
+                    "transform": "scale(1.3)"
+                  }
+                }
+              },
+              ".dropdown-item": {
+                "display": "inline-flex",
+                "justify-content": "center",
+                "font-weight": "normal",
+                "padding": "10px 40px 10px 20px",
+                "line-height": "1",
+                "position": "relative",
+                "width": "100%",
+                "transition": "all 0.3s"
+              }
+            },
+            "@media (max-width: 1300px)": {
+              ".navbar-nav .nav-item:nth-child(2)": {
+                ".dropdown-menu": {
+                  ".dropdown-item": {
+                    "width": "167px",
+                    "padding": "10px",
+                    "white-space": "normal"
+                  }
+                }
+              },
+              ".dropdown-menu": {
+                "& when (@imageCount > '1')": {
+                  "a > .image1": {
+                    "width": "170px",
+                    "height": "140px"
+                  }
+                },
+                "& when (@imageCount > '2')": {
+                  "a > .image2": {
+                    "width": "170px",
+                    "height": "140px"
+                  }
+                },
+                "& when (@imageCount > '3')": {
+                  "a > .image3": {
+                    "width": "170px",
+                    "height": "140px"
+                  }
+                },
+                "& when (@imageCount > '4')": {
+                  "a > .image4": {
+                    "width": "170px",
+                    "height": "140px"
+                  }
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "&.dropdown.open > .dropdown-menu:not(.dropdown-submenu) > .dropdown > .dropdown-submenu": {
+                "visibility": "visible",
+                "opacity": "1"
+              },
+              ".mbr-section-btn": {
+                "margin-left": "31px"
+              },
+              ".btn": {
+                "white-space": "nowrap"
+              },
+              ".dropdown-menu": {
+                "min-width": "210px",
+                "display": "block",
+                "z-index": "5",
+                "background-color": "@menuColor !important",
+                "border": "1px solid @borderColor",
+                "border-radius": "4px",
+                "left": "17px",
+                "right": "auto",
+                "top": "100%",
+                "opacity": "0",
+                "padding": "11px 0 !important",
+                "margin": "0 !important",
+                "visibility": "hidden",
+                "transition": "all .3s linear",
+                "transform": "translateY(0)"
+              },
+              ".nav-item:hover .nav-link + .dropdown-menu": {
+                "transform": "translateY(20px)",
+                "opacity": "1",
+                "visibility": "visible"
+              },
+              ".nav-item.dropdown:hover::before, .nav-item.dropdown.open:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "bottom": "-20px",
+                "left": "0",
+                "width": "100%",
+                "height": "20px"
+              },
+              ".is-builder & .nav-item:hover .nav-link + .dropdown-menu": {
+                "opacity": "0",
+                "visibility": "hidden"
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".navbar .navbar-collapse": {
+                "align-items": "center !important"
+              }
+            },
+            ".navbar > .container, .navbar > .container-fluid": {
+              "align-items": "center"
+            },
+            ".dropdown-toggle::after, .link.dropdown-toggle:after": {
+              "display": "inline-block",
+              "width": "7px",
+              "height": "7px",
+              "margin-left": "6px",
+              "content": "\"\"",
+              "border": "2px solid",
+              "border-left": "none",
+              "border-top": "none",
+              "transform": "rotate(45deg)",
+              "transition": "all .25s ease 0s"
+            },
+            ".dropdown-menu .dropdown-toggle:after": {
+              "border": "2px solid",
+              "border-left": "none",
+              "border-top": "none",
+              "transform": "rotate(45deg)",
+              "width": "8px",
+              "height": "8px"
+            },
+            ".open > .dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+              "margin-bottom": "-8px",
+              "transform": "rotate(225deg)"
+            },
+            ".dropdown.open": {
+              ".dropdown-toggle[aria-expanded=\"true\"]": {
+                "& + .dropdown-submenu": {
+                  "visibility": "visible",
+                  "opacity": "1",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              }
+            },
+            ".nav-dropdown .dropdown-submenu": {
+              "display": "none",
+              "margin": "0 !important",
+              "font-weight": "400",
+              "top": "0 !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "&.dropdown-toggle": {
+                "&:before": {
+                  "display": "none"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            "a.nav-link": {
+              "justify-content": "center",
+              "display": "flex",
+              "align-items": "center",
+              "transition": "all 0.3s linear"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap",
+              "flex": "1"
+            },
+            ".navbar": {
+              "padding": "12px 52px 11px 43px",
+              "min-height": "114px",
+              "transition": "all 0.3s",
+              "background": "@menuBgColor",
+              "&.opened": {
+                "transition": "all 0.3s",
+                "background": "@menuBgColor !important"
+              },
+              ".navbar-collapse": {
+                "justify-content": "space-between",
+                "align-items": "center",
+                "z-index": "1",
+                ".navbar-nav when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(100vh - @{logoSize}px - 1rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center",
+                  "justify-content": "center"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".dropdown-menu .menu__images": {
+                "display": "none"
+              },
+              ".nav-item:hover .nav-link + .dropdown-menu": {
+                "transform": "none",
+                "opacity": "1",
+                "visibility": "visible"
+              },
+              ".nav-item .nav-link::before": {
+                "display": "none"
+              },
+              "&.opened": {
+                ".dropdown-menu": {
+                  "top": "0"
+                }
+              },
+              ".mbr-section-btn .btn": {
+                "min-width": "auto",
+                "padding": "5px ",
+                "font-size": "14px"
+              },
+              ".dropdown-menu": {
+                "margin": "0",
+                "padding": "0",
+                "line-height": "45px",
+                "border": "0",
+                "left": "8px",
+                "width": "100%",
+                "max-width": "100% !important",
+                "box-shadow": "none",
+                ".dropdown-submenu": {
+                  "left": "0 !important",
+                  "position": "relative !important"
+                }
+              },
+              ".navbar-logo": {
+                "margin": "0",
+                "img": {
+                  "height": "60px !important"
+                }
+              },
+              ".navbar-brand": {
+                "flex-shrink": "initial",
+                "flex-basis": "auto",
+                "word-break": "break-word",
+                "margin": "0 !important",
+                "padding": "0"
+              },
+              ".navbar-toggler": {
+                "-webkit-flex-basis": "auto",
+                "flex-basis": "auto"
+              },
+              ".icons-menu": {
+                "margin": "30px 0",
+                "text-align": "center"
+              },
+              ".navbar": {
+                "padding": "13px 90px"
+              },
+              ".navbar .navbar-collapse": {
+                "position": "absolute",
+                "top": "100%",
+                "background-color": "@menuColor !important",
+                "padding-left": "20px",
+                "padding-right": "20px",
+                "left": "0px",
+                "right": "0px"
+              },
+              ".navbar .dropdown-menu .dropdown-item": {
+                "justify-content": "flex-start",
+                "padding": "15.5px 23px",
+                "line-height": "1"
+              },
+              ".dropdown-submenu .dropdown-item": {
+                "padding-left": "45px !important"
+              },
+              ".dropdown-toggle::after, .link.dropdown-toggle:after": {
+                "position": "absolute",
+                "right": "12px"
+              },
+              ".nav-item": {
+                "border-bottom": "1px solid @borderColor"
+              },
+              "a.nav-link": {
+                "justify-content": "flex-start",
+                "line-height": "21px",
+                "padding": "35px 43px 35px 19px !important"
+              },
+              "ul.navbar-nav": {
+                "padding": "0 100px",
+                "margin": "0"
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "block"
+              },
+              ".navbar-nav .nav-item:nth-child(2)": {
+                ".dropdown-menu": {
+                  ".dropdown-item": {
+                    "width": "100%"
+                  }
+                }
+              }
+            },
+            "&.navbar-short": {
+              "background": "@menuBgColor !important",
+              "min-height": "70px",
+              "height": "70px",
+              ".nav-dropdown": {
+                "height": "70px"
+              },
+              ".navbar-brand": {
+                "padding": "0"
+              },
+              ".navbar-logo": {
+                "img": {
+                  "height": "70px !important"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".navbar": {
+                "padding": "0 !important"
+              },
+              "ul.navbar-nav": {
+                "padding": "0 !important"
+              },
+              "a.nav-link": {
+                "padding": "27px 26px 27px 19px !important"
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "12px",
+              "padding": "0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "left": "100%",
+                  "position": "absolute"
+                }
+              }
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".is-builder & .dropdown.open > .dropdown-menu": {
+              "display": "block !important",
+              "visibility": "visible !important",
+              "opacity": "1 !important",
+              "transform": "translateY(20px)"
+            },
+            ".navbar-dropdown": {
+              "position": "absolute",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "97px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"menu voyagem4_menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Position</header>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<!--  -->\n\t\t<header>Menu</header>\n\t\t<input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"50\" max=\"150\" step=\"5\" value=\"95\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<input type=\"range\" title=\"Icons Amount\" name=\"iconsAmount\" min=\"0\" max=\"4\" step=\"1\" value=\"0\">\n\t\t<input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n\t\t<input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t\t<select name=\"imageCount\" title=\"Image Count\">\n\t\t\t<option value=\"1\" selected>None</option>\n\t\t\t<option value=\"2\">1</option>\n\t\t\t<option value=\"3\">2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"5\">4</option>\n\t\t</select>\n\t\t<input type=\"image\" title=\"Image 1\" name=\"menuImage1\" value=\"@PROJECT_PATH@/assets/images/dsc_0629%20copy-2000x1333.jpg\" condition=\"imageCount > 1\">\n\t\t<input type=\"image\" title=\"Image 2\" name=\"menuImage2\" value=\"@PROJECT_PATH@/assets/images/dsc-791-2000x1333.jpg\" condition=\"imageCount > 2\">\n\t\t<input type=\"image\" title=\"Image 3\" name=\"menuImage3\" value=\"@PROJECT_PATH@/assets/images/dsc-776-2000x1333.jpg\" condition=\"imageCount > 3\">\n\t\t<input type=\"image\" title=\"Image 4\" name=\"menuImage4\" value=\"@PROJECT_PATH@/assets/images/lakkas-villas-areti-luxury-cottage-1-740x560.jpg\" condition=\"imageCount > 4\">\n\t\t<header>Color</header>\n\t\t<input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#b4a990\">\n\t\t<input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#eef5f4\">\n\t\t<input type=\"color\" title=\"Menu\" name=\"menuColor\" value=\"#eef5f4\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n\t\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"index.html\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.webp\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'px'}\" title>\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption mbr-bold text-primary\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">VoyageM4</a></span>\n\t\t\t</div>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\"><li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">2-BEDROOM SUITE</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NEA SMYRNI</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2h\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ATHENS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2m\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">BEACH ESCAPES</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#slider2-2o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DAILY TRIPS in ATTICA</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"https://ibe.channex.io/online-booking-captain-suite\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\">&nbsp;</span>BOOK NOW</a></li><li class=\"nav-item\"><a class=\"nav-link link text-primary\" href=\"index.html#forms01-2k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">CONTACT US</a></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"iconsAmount > 0\">\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-user-2 mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-facebook-f fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-twitter-square fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"https://mobiri.se\" target=\"_blank\" class=\"icons__wrap\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont fa-instagram fa\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" class=\"mbr-section-btn\">\n\t\t\t\t<a class=\"btn btn-primary-outline\" href=\"#\" data-app-placeholder=\"Type Text\">Get In Touch</a>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_cid": "vrN8XIKajN",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-2q"
+        },
+        {
+          "_name": "aheader4",
+          "_sourceTheme": "charitym5",
+          "_customHTML": "<section class=\"header4 charitym5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/img-4908-2000x1125.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#FFFFFF\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/charitym5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#303030\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Captain´s Suite in Nea Smyrni</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Privacy Policy</h2>\n                <p class=\"mbr-text mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">In one of the best city neighbourhoods in Europe according \"<a href=\"https://www.theguardian.com/travel/2020/feb/10/10-best-city-neighbourhoods-europe-readers-travel-tips\" class=\"text-warning\" target=\"_blank\">The Guardian</a>\"</p>\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://ibe.channex.io/online-booking-captain-suite\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-calendar mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp; BOOK ONLINE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#cce4f0"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#FFFFFF",
+              "margin-top": "20px"
+            },
+            ".mbr-text": {
+              "color": "#FFFFFF",
+              "margin-top": "20px"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "18px",
+              ".btn.btn-white": {
+                "background-color": "transparent !important",
+                "border-color": "#FFFFFF !important"
+              },
+              ".btn.btn-black": {
+                "background-color": "transparent !important",
+                "border-color": "#303030 !important"
+              }
+            }
+          },
+          "_cid": "vrN8XJqg31",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "aheader4-2r"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "35px",
+              "b, strong": {
+                "font-weight": "500"
+              }
+            },
+            ".figure when (@showFigure)": {
+              "display": "block",
+              "position": "relative",
+              "z-index": "1",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "z-index": "-1",
+                "width": "119px",
+                "height": "119px",
+                "top": "-100px",
+                "left": "-50px",
+                "background-image": "url(@figure)",
+                "background-repeat": "no-repeat",
+                "background-size": "cover"
+              }
+            },
+            "@media (max-width: 1024px)": {
+              ".figure:before": {
+                "width": "89px",
+                "height": "89px",
+                "top": "-55px",
+                "left": "-18px"
+              }
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title, .mbr-section-btn DIV": {
+              "text-align": "justify"
+            }
+          },
+          "_name": "header3",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"header3 voyagem4_header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax, 'mbr-fullscreen': fullScreen}\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"!fullScreen\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"!fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logo-transparent-captains-suite-303x303.webp\" condition=\"showFigure && showTitle\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<select name=\"alignContent\" title=\"Align Content\">\n\t\t\t<option value=\"1\">Left</option>\n\t\t\t<option value=\"2\" selected>Center</option>\n\t\t\t<option value=\"3\">Right</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\" mbr-class=\"{'justify-content-start' : alignContent == 1, 'justify-content-center' : alignContent == 2, 'justify-content-end' : alignContent == 3}\">\n\t\t\t<div class=\"col-lg-6 col-12 align-center\">\n\t\t\t\t<h1 class=\"mbr-section-title figure mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><br><div><span style=\"font-size: 2.75rem;\">**Last updated: 9 August 2026**</span><br></div><div><br></div><div>A.S ELA TOURISM TECHNOLOGIES LTD (\"**we**\", \"**us**\", \"**our**\") operates the Captain Suite website at **[https://captain-suite.com/](https://captain-suite.com/)** (the \"**Website**\") and provides accommodation and related services in connection with Captain Suite in Nea Smyrni, Athens, Greece.</div><div><br></div><div>We respect your privacy and are committed to protecting your personal data in accordance with the **EU General Data Protection Regulation (Regulation (EU) 2016/679 – \"GDPR\")** and other applicable data-protection legislation.</div><div><br></div><div>This Privacy Policy explains what personal data we collect, why we collect it, how we use it, with whom we may share it, how long we retain it, and what rights you have.</div><div><br></div><div>---</div><div><br></div><div>## 1. Who is responsible for your personal data?</div><div><br></div><div>The data controller for personal data processed through this Website and in connection with your booking or stay is:</div><div><br></div><div>**A.S ELA TOURISM TECHNOLOGIES LTD**</div><div>Kozanis 7A</div><div>Pafos 8027</div><div>Cyprus</div><div><br></div><div>**Captain Suite**</div><div>Dardanellion 62</div><div>17124 Nea Smyrni (Athens)</div><div>Greece</div><div><br></div><div>Captain Suite licence number: **00000776672**</div><div><br></div><div>Telephone: **+30 697 671 3377**</div><div><br></div><div>For privacy-related enquiries, you may contact us using the contact details above or through the contact facilities available on the Website.</div><div><br></div><div>---</div><div><br></div><div>## 2. What personal data do we collect?</div><div><br></div><div>Depending on how you interact with us, we may collect the following categories of personal data:</div><div><br></div><div>### A. Information you provide to us</div><div><br></div><div>When you contact us, make an enquiry, request information, or make a booking, we may collect:</div><div><br></div><div>* first and last name;</div><div>* email address;</div><div>* telephone number;</div><div>* postal or billing address, where required;</div><div>* booking and reservation details;</div><div>* arrival and departure dates;</div><div>* number of guests;</div><div>* requests or preferences relating to your stay;</div><div>* communications you send to us;</div><div>* information required to process or administer your booking or payment.</div><div><br></div><div>### B. Payment information</div><div><br></div><div>If you make a booking or payment through the Website, payment may be processed using third-party payment providers, including **Stripe** and/or **PayPal**, or by bank transfer.</div><div><br></div><div>We generally do not need to receive or store your full payment-card number. Payment-card information may be collected and processed directly by the relevant payment provider in accordance with its own privacy policy and security practices.</div><div><br></div><div>We may receive limited payment-related information, such as the payment status, transaction reference, amount, currency and other information necessary to reconcile and administer your booking.</div><div><br></div><div>### C. Technical and usage information</div><div><br></div><div>When you visit the Website, certain technical information may be collected automatically, depending on the cookies and other technologies enabled on the Website. This may include:</div><div><br></div><div>* IP address;</div><div>* browser type and version;</div><div>* operating system;</div><div>* device information;</div><div>* approximate location derived from IP address;</div><div>* pages visited;</div><div>* date and time of access;</div><div>* referring website;</div><div>* technical logs and security information.</div><div><br></div><div>The exact information collected depends on the technologies and third-party services active on the Website.</div><div><br></div><div>### D. Information relating to access to the property</div><div><br></div><div>For security and operational purposes, we may process information associated with electronic access systems used at Captain Suite, including the **Nuki smart-lock system** and the electronic access code used to enter the building or apartment.</div><div><br></div><div>Depending on the configuration of these systems, this may include information such as access credentials, access events, dates and times of entry, and technical identifiers.</div><div><br></div><div>Access information is used primarily to provide secure access to the accommodation, administer your stay, maintain security, and investigate security incidents where necessary.</div><div><br></div><div>### E. Video doorbell</div><div><br></div><div>Captain Suite uses a video doorbell at the **main entrance of the apartment/building** for security purposes.</div><div><br></div><div>The system may process video images, audio and/or information associated with an interaction with the doorbell. The camera is intended to monitor the entrance area and **not the private interior of the accommodation**.</div><div><br></div><div>Video surveillance is used for legitimate security purposes, including protecting guests, visitors, property and the accommodation and preventing or investigating incidents.</div><div><br></div><div>We will seek to configure the system so that it captures only the area reasonably necessary for these purposes.</div><div><br></div><div>Where required by applicable law, appropriate signage or other information will be provided in the area covered by the system.</div><div><br></div><div>---</div><div><br></div><div>## 3. Why do we use your personal data?</div><div><br></div><div>We may process your personal data for the following purposes:</div><div><br></div><div>1. **Managing enquiries and communications**</div><div>&nbsp; &nbsp;To respond to questions, requests and messages submitted through the Website or other communication channels.</div><div><br></div><div>2. **Managing bookings and accommodation services**</div><div>&nbsp; &nbsp;To make, confirm, administer and manage your reservation and stay.</div><div><br></div><div>3. **Processing payments**</div><div>&nbsp; &nbsp;To facilitate and verify payments and manage financial records relating to your booking.</div><div><br></div><div>4. **Providing access to the accommodation**</div><div>&nbsp; &nbsp;To issue, manage and administer electronic access credentials and access codes.</div><div><br></div><div>5. **Security and fraud prevention**</div><div>&nbsp; &nbsp;To protect guests, visitors, employees, property and our systems and to detect, prevent or investigate fraud, misuse or security incidents.</div><div><br></div><div>6. **Operating and securing the Website**</div><div>&nbsp; &nbsp;To maintain the functionality, security and reliability of the Website and to diagnose technical problems.</div><div><br></div><div>7. **Legal and regulatory compliance**</div><div>&nbsp; &nbsp;To comply with legal, tax, accounting, regulatory and law-enforcement requirements where applicable.</div><div><br></div><div>8. **Defending or exercising legal rights**</div><div>&nbsp; &nbsp;To establish, exercise or defend legal claims and protect our legitimate business interests.</div><div><br></div><div>9. **Improving our services**</div><div>&nbsp; &nbsp;Where legally permitted and based on an appropriate legal basis, to understand how our services and Website are used and improve them.</div><div><br></div><div>We will not use your personal data for purposes incompatible with those described in this Privacy Policy unless we are legally permitted or required to do so and provide any additional information required by law.</div><div><br></div><div>---</div><div><br></div><div>## 4. Legal bases for processing</div><div><br></div><div>Under the GDPR, we process personal data only where we have an appropriate legal basis.</div><div><br></div><div>Depending on the circumstances, these legal bases may include:</div><div><br></div><div>### Performance of a contract – Article 6(1)(b) GDPR</div><div><br></div><div>We may process personal data where this is necessary to enter into or perform a contract with you, including:</div><div><br></div><div>* handling a booking;</div><div>* administering your accommodation;</div><div>* communicating with you about your reservation;</div><div>* processing or administering payments;</div><div>* providing access to the accommodation.</div><div><br></div><div>### Legal obligation – Article 6(1)(c) GDPR</div><div><br></div><div>We may process personal data where necessary to comply with a legal obligation, including applicable accounting, tax, financial, regulatory or other legal requirements.</div><div><br></div><div>### Legitimate interests – Article 6(1)(f) GDPR</div><div><br></div><div>We may process personal data where necessary for our legitimate interests, provided those interests are not overridden by your fundamental rights and freedoms.</div><div><br></div><div>These interests may include:</div><div><br></div><div>* maintaining Website and information-security;</div><div>* preventing fraud and misuse;</div><div>* protecting our property and guests;</div><div>* operating electronic access systems;</div><div>* securing the accommodation;</div><div>* investigating security incidents;</div><div>* establishing or defending legal claims;</div><div>* managing and improving our business.</div><div><br></div><div>### Consent – Article 6(1)(a) GDPR</div><div><br></div><div>Where required by law, we will ask for your consent before processing personal data for a particular purpose, such as certain non-essential cookies or direct marketing.</div><div><br></div><div>You may withdraw consent at any time. Withdrawal of consent does not affect the lawfulness of processing carried out before withdrawal.</div><div><br></div><div>---</div><div><br></div><div>## 5. Cookies and similar technologies</div><div><br></div><div>The Website may use cookies and similar technologies.</div><div><br></div><div>Cookies may be used for purposes including:</div><div><br></div><div>* essential Website functionality;</div><div>* security;</div><div>* remembering preferences;</div><div>* analysing Website usage;</div><div>* enabling third-party services;</div><div>* marketing or advertising, where applicable.</div><div><br></div><div>Where required by law, we will request your consent before placing or using non-essential cookies.</div><div><br></div><div>You can manage your cookie preferences through the **\"Cookies Settings\"** facility available on the Website. You can also configure your browser to block or delete cookies.</div><div><br></div><div>Please note that disabling certain cookies may affect the functionality of the Website.</div><div><br></div><div>---</div><div><br></div><div>## 6. Who may receive your personal data?</div><div><br></div><div>We may disclose personal data to trusted third parties where necessary for the purposes described in this Privacy Policy.</div><div><br></div><div>These may include:</div><div><br></div><div>* payment service providers, such as Stripe and PayPal;</div><div>* booking, reservation and accommodation-management providers;</div><div>* Website hosting and technical service providers;</div><div>* IT, cloud-storage and communications providers;</div><div>* electronic access-control providers, including providers of smart-lock technology;</div><div>* security and surveillance-system providers;</div><div>* accountants, auditors, lawyers and other professional advisers;</div><div>* government authorities, regulators, courts or law-enforcement agencies where required or permitted by law;</div><div>* other service providers necessary to provide or administer your accommodation.</div><div><br></div><div>We require processors that process personal data on our behalf to provide appropriate confidentiality and security safeguards and, where required by the GDPR, to operate under a written data-processing agreement.</div><div><br></div><div>We do not sell your personal data.</div><div><br></div><div>---</div><div><br></div><div>## 7. International transfers of personal data</div><div><br></div><div>Some of our service providers may process personal data outside the European Economic Area (EEA).</div><div><br></div><div>Where personal data is transferred outside the EEA, we will ensure that the transfer is made in accordance with applicable data-protection law.</div><div><br></div><div>Depending on the circumstances, this may include:</div><div><br></div><div>* a European Commission adequacy decision;</div><div>* the use of EU Standard Contractual Clauses;</div><div>* appropriate supplementary safeguards; or</div><div>* another lawful transfer mechanism recognised under the GDPR.</div><div><br></div><div>You may contact us if you would like further information about the safeguards applicable to a particular international transfer.</div><div><br></div><div>---</div><div><br></div><div>## 8. How long do we keep your personal data?</div><div><br></div><div>We retain personal data only for as long as necessary for the purposes for which it was collected, unless a longer period is required or permitted by law.</div><div><br></div><div>Different categories of information may therefore have different retention periods.</div><div><br></div><div>For example:</div><div><br></div><div>* **Booking and guest information** may be retained for as long as necessary to administer your reservation and subsequently for the period required for accounting, tax, legal and dispute-resolution purposes.</div><div>* **Payment and accounting records** may be retained for the period required by applicable financial, accounting and tax legislation.</div><div>* **Enquiry and communication records** may be retained for as long as reasonably necessary to handle the enquiry and for legitimate business or legal purposes.</div><div>* **Electronic access records** should be retained only for as long as reasonably necessary for security, operational and legal purposes.</div><div>* **Video-doorbell recordings**, where recordings are made, should be retained only for the shortest period reasonably necessary for security purposes and any applicable legal requirements. Where an incident occurs, relevant footage may be retained for longer where necessary to investigate the incident or establish, exercise or defend legal claims.</div><div><br></div><div>We periodically review retained personal data and delete or anonymise information that is no longer required.</div><div><br></div><div>---</div><div><br></div><div>## 9. Your rights under the GDPR</div><div><br></div><div>Subject to applicable legal conditions and exceptions, you have the following rights:</div><div><br></div><div>### Right of access</div><div><br></div><div>You may ask us whether we process personal data about you and request a copy of that personal data.</div><div><br></div><div>### Right to rectification</div><div><br></div><div>You may ask us to correct inaccurate or incomplete personal data.</div><div><br></div><div>### Right to erasure</div><div><br></div><div>You may ask us to delete your personal data where there is no longer a lawful reason for us to retain it.</div><div><br></div><div>This right is not absolute. We may need to retain certain information to comply with legal obligations or establish, exercise or defend legal claims.</div><div><br></div><div>### Right to restriction of processing</div><div><br></div><div>You may ask us to restrict the processing of your personal data in certain circumstances.</div><div><br></div><div>### Right to data portability</div><div><br></div><div>Where applicable, you may request personal data that you have provided to us in a structured, commonly used and machine-readable format and ask us to transmit it to another controller.</div><div><br></div><div>### Right to object</div><div><br></div><div>You may object to processing based on our legitimate interests where you have grounds relating to your particular situation.</div><div><br></div><div>You also have the right to object at any time to processing of personal data for direct marketing purposes.</div><div><br></div><div>### Right to withdraw consent</div><div><br></div><div>Where processing is based on consent, you may withdraw your consent at any time.</div><div><br></div><div>---</div><div><br></div><div>## 10. How to exercise your rights</div><div><br></div><div>To exercise any of your GDPR rights, please contact us using the contact details provided in Section 1 of this Privacy Policy.</div><div><br></div><div>Please provide enough information for us to identify you and understand your request.</div><div><br></div><div>We may need to request additional information to verify your identity before fulfilling certain requests. This is a security measure intended to prevent personal data from being disclosed to the wrong person.</div><div><br></div><div>We will normally respond to a valid request within **one month**, although this period may be extended by up to two further months where permitted by the GDPR due to the complexity or number of requests. We will inform you if an extension is necessary.</div><div><br></div><div>We do not normally charge a fee for exercising your GDPR rights. However, where a request is manifestly unfounded or excessive, we may charge a reasonable fee or refuse to act where permitted by law.</div><div><br></div><div>---</div><div><br></div><div>## 11. Right to complain to a supervisory authority</div><div><br></div><div>If you believe that our processing of your personal data violates applicable data-protection law, you have the right to lodge a complaint with a competent data-protection supervisory authority.</div><div><br></div><div>As our company is established in Cyprus, you may contact the **Cyprus supervisory authority**. Depending on the circumstances of the processing, you may also have rights to complain to another competent EU supervisory authority, including the authority in the country where you live, work or where an alleged infringement occurred.</div><div><br></div><div>You can find information about EU data-protection supervisory authorities through the European Data Protection Board.</div><div><br></div><div>---</div><div><br></div><div>## 12. Security of your personal data</div><div><br></div><div>We take reasonable technical and organisational measures designed to protect personal data against:</div><div><br></div><div>* accidental or unlawful destruction;</div><div>* accidental loss;</div><div>* alteration;</div><div>* unauthorised disclosure;</div><div>* unauthorised access; and</div><div>* other unlawful forms of processing.</div><div><br></div><div>The measures used will depend on the nature and risks associated with the personal data concerned.</div><div><br></div><div>However, no Website, electronic communication system or method of storage can be guaranteed to be completely secure.</div><div><br></div><div>---</div><div><br></div><div>## 13. Children's privacy</div><div><br></div><div>Our Website and accommodation services are not intended to knowingly collect personal data directly from children for independent use of the Website.</div><div><br></div><div>Where a booking includes children, personal information relating to them should be provided by an appropriate parent, guardian or other person legally authorised to provide it.</div><div><br></div><div>If you believe that a child has provided us with personal data improperly, please contact us so that we can take appropriate action.</div><div><br></div><div>---</div><div><br></div><div>## 14. Third-party websites and services</div><div><br></div><div>The Website may contain links to third-party websites, including websites for attractions, activities, payment providers, booking services or other external services.</div><div><br></div><div>This Privacy Policy does not apply to third-party websites or services.</div><div><br></div><div>We recommend that you review the privacy policies of those third parties before providing them with personal data.</div><div><br></div><div>---</div><div><br></div><div>## 15. Changes to this Privacy Policy</div><div><br></div><div>We may update this Privacy Policy from time to time to reflect changes in our services, technology, legal requirements or data-processing practices.</div><div><br></div><div>When we make material changes, we will update the **\"Last updated\"** date at the beginning of this Privacy Policy and, where appropriate, provide additional notice.</div><div><br></div><div>We encourage you to review this Privacy Policy periodically.</div><div><br></div><div>---</div><div><br></div><div>## 16. Contact us</div><div><br></div><div>If you have questions about this Privacy Policy, our processing of personal data, or your GDPR rights, please contact:</div><div><br></div><div>**A.S ELA TOURISM TECHNOLOGIES LTD**</div><div>Kozanis 7A</div><div>Pafos 8027</div><div>Cyprus</div><div><br></div><div>**Captain Suite**</div><div>Dardanellion 62</div><div>17124 Nea Smyrni (Athens)</div><div>Greece</div><div><br></div><div>**Telephone:** +30 697 671 3377</div><div><br></div><div>You may also contact us through the contact facilities available at:</div><div><br></div><div>**[https://captain-suite.com/](https://captain-suite.com/)**</div><div><br></div><div>---</div><div><br></div><div>**© A.S ELA TOURISM TECHNOLOGIES LTD. All rights reserved.**</div></h1>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n\t\t\t\t\t<a class=\"btn btn-lg btn-warning\" href=\"#\" data-app-placeholder=\"Type Text\">Read More</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "vrNa1TgbbZ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header3-37"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<a class=\"weatherwidget-io\" href=\"https://forecast7.com/en/37d9423d71/nea-smyrni/\" data-label_1=\"ΝΈΑ ΣΜΎΡΝΗ\" data-label_2=\"WEATHER\" data-theme=\"original\">ΝΈΑ ΣΜΎΡΝΗ WEATHER</a>\n[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "voyagem4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');\n</script>"
+          ],
+          "_anchor": "custom-html-33"
+        },
+        {
+          "_name": "forms01",
+          "_sourceTheme": "creativem4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".google-map": {
+              "height": "50rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            },
+            ".wrapper": {
+              "margin-top": "-10rem",
+              "background": "@cardBg",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "border-radius": "40px",
+              "border-collapse": "separate",
+              "-webkit-perspective": "1px",
+              "perspective": "1px",
+              "overflow": "hidden",
+              ".row": {
+                "-webkit-box-pack": "end",
+                "-ms-flex-pack": "end",
+                "justify-content": "flex-end",
+                "-webkit-box-align": "stretch",
+                "-ms-flex-align": "stretch",
+                "align-items": "stretch",
+                "border-radius": "40px",
+                "border-collapse": "separate",
+                "-webkit-perspective": "1px",
+                "perspective": "1px",
+                ".btn": {
+                  "border-radius": "30px",
+                  "padding": "0.8rem 3rem !important"
+                },
+                ".title": {
+                  "color": "@primaryColor"
+                }
+              },
+              ".form-container": {
+                "padding": "3rem",
+                "border-radius": "40px",
+                "border-collapse": "separate",
+                "-webkit-perspective": "1px",
+                "perspective": "1px",
+                "overflow": "hidden"
+              }
+            },
+            ".content-panel": {
+              "padding": "3rem",
+              "background": "linear-gradient(45deg, @columnBg1, @columnBg2)",
+              "height": "100%",
+              "border-top-right-radius": "0.25rem",
+              "border-bottom-right-radius": "0.25rem",
+              "overflow": "hidden",
+              "display": "flex",
+              "-webkit-box-orient": "vertical",
+              "-webkit-box-direction": "normal",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            ".mbr-text": {
+              "color": "#efefef"
+            },
+            ".form-control": {
+              "border-radius": "10px !important",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "min-height": "40px"
+            },
+            "textarea.form-control": {
+              "min-height": "170px"
+            },
+            ".social-list": {
+              "margin-top": "auto",
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "display": "flex",
+              "-ms-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "& when (@iconsAlign = \"left\")": {
+                "-webkit-box-pack": "start",
+                "-ms-flex-pack": "start",
+                "justify-content": "flex-start"
+              },
+              "& when (@iconsAlign = \"center\")": {
+                "-webkit-box-pack": "center",
+                "-ms-flex-pack": "center",
+                "justify-content": "center"
+              },
+              "& when (@iconsAlign = \"right\")": {
+                "-webkit-box-pack": "end",
+                "-ms-flex-pack": "end",
+                "justify-content": "flex-end"
+              },
+              ".mbr-iconfont-social": {
+                "font-size": "1.2rem",
+                "color": "#fff"
+              },
+              ".mbr-iconfont:before": {
+                "padding": "0.5rem",
+                "border": "2px solid",
+                "border-radius": "100px",
+                "border-style": "dotted"
+              },
+              ".soc-item": {
+                "margin": "15px 3px 0px 3px"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": "0.7",
+                "-webkit-transition": "0.2s linear",
+                "transition": "0.2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".container": {
+                "max-width": "80% !important"
+              },
+              ".wrapper": {
+                "margin-top": "0",
+                "border-radius": "40px",
+                ".main-row": {
+                  "-webkit-box-orient": "vertical",
+                  "-webkit-box-direction": "reverse",
+                  "-ms-flex-direction": "column-reverse",
+                  "flex-direction": "column-reverse",
+                  ".text-block": {
+                    ".content-panel": {
+                      "border-radius": "0 0 30px 30px !important",
+                      ".social-list": {
+                        "margin-left": "auto",
+                        "margin-right": "auto"
+                      }
+                    }
+                  }
+                }
+              },
+              ".form-container": {
+                "border-radius": "30px 30px 0 0 !important"
+              }
+            },
+            ".wrapper .row .title": {
+              "color": "#3a6686"
+            }
+          },
+          "_customHTML": "<section class=\"map1 forms01 creativem4_forms01\" group=\"Forms\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Titles\" name=\"showTitle\" checked condition=\"textBlocks>0\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked condition=\"textBlocks>0\">\n        <input type=\"range\" inline name=\"textBlocks\" title=\"Text Blocks\" min=\"0\" max=\"3\" value=\"3\" step=\"1\">\n        <header>Icons</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <select name=\"iconsAlign\" title=\"Icons Align\" condition=\"showIcons\">\n            <option value=\"left\" selected>left</option>\n            <option value=\"center\">center</option>\n            <option value=\"right\">right</option>\n        </select>\n        <hr>\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Left Column Bg 1\" name=\"columnBg1\" value=\"#6dc4f0\">\n        <input type=\"color\" title=\"Left Column Bg 2\" name=\"columnBg2\" value=\"#0b1661\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.447234009025!2d23.717996577231414!3d37.94334210242999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bdb23ad3503b%3A0xa91b9c288e664b76!2sDardanellion%2062%2C%20Nea%20Smirni%20171%2024%2C%20Greece!5e0!3m2!1sen!2sde!4v1710007880879!5m2!1sen!2sde&quot; width=&quot;600&quot; height=&quot;450&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot; referrerpolicy=&quot;no-referrer-when-downgrade&quot;></iframe>\">\n        <input type=\"color\" title=\"Bg Color\" name=\"bgColor\" value=\"#ffffff\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n\n    <div class=\"container wrapper\">\n        <div class=\"row main-row\">\n            <div class=\"col-sm-12 col-lg-4 col-md-6 px-0 text-block\">\n                <div class=\"content-panel\">\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks > 0\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">VISIT US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Captain Suite, Dardanellion 62, 17124 Nea Smyrni (Athens), Greece<br>Licence No:&nbsp;00000776672</p>\n                    </div>\n                    <div class=\"text-block pb-3\" mbr-if=\"textBlocks>1\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">CALL US</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">+30 697 671 3377</p>\n                    </div>\n                    <div class=\"text-block\" mbr-if=\"textBlocks>2\">\n                        <h3 class=\"mbr-title mbr-fonts-style align-left mbr-white pb-2 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">LET'S DO SMTH\n                            AMAZING.\n                        </h3>\n                        <p class=\"mbr-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Fill this out so we can learn more about you and your needs.\n                        </p>\n                    </div>\n                    <div class=\"social-list pl-0 mb-0\" mbr-if=\"showIcons\" mbr-class=\"{'pt-4':textBlocks > 0 }\">\n                        <div class=\"soc-item\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div mbr-form class=\"col-sm-12 col-lg-8 col-md-6 form-container\">\n                <!---Formbuilder Form--->\n                <form action=\"info@ela-tourism-technologies.com\" name=\"My Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified=\"info@ela-tourism-technologies.com\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out\n                            the form! We will sent you all needed information within the next 24 hours. Best regards from your Captain Suite crew! </div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                        </div>\n                    </div>\n                    <div class=\"dragArea form-row\">\n                        <div class=\"col-md-12\">\n                            <h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-section-title mbr-fonts-style pb-3 title\" data-app-selector=\".wrapper .row .title\">Tell us about your holiday dream.\n                            </h2>\n                        </div>\n                        <div class=\"col-md-12 col-lg-6 form-group\" data-for=\"firstname\">\n                            <input type=\"text\" name=\"firstname\" placeholder=\"First Name\" data-form-field=\"First Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div data-for=\"email\" class=\"col-md-12 col-lg-6 form-group\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email*\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\">\n                        </div>\n                        <div data-for=\"phone\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"lastname\" class=\"col-md-12 col-lg-6 form-group\" hidden=\"hidden\">\n                            <input type=\"text\" name=\"lastname\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" class=\"form-control\" hidden=\"hidden\">\n                        </div>\n                        <div data-for=\"message\" class=\"col-md-12   form-group\">\n                            <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"col-md-12 input-group-btn \">\n                            <a type=\"submit\" class=\"btn btn-form btn-primary\">Do it</a>\n                        </div>\n                    </div>\n                </form>\n                <!---Formbuilder Form--->\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "vrN8XQ7fKe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "forms01-34"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = \"video\")": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".line": {
+              "width": "100%",
+              "height": "2px",
+              "background": "#efefef",
+              "margin-bottom": "2rem"
+            },
+            "a": {
+              "position": "relative",
+              "width": "fit-content",
+              "&:before": {
+                "content": "''",
+                "position": "absolute",
+                "width": "100%",
+                "transition": "all 0.3s",
+                "height": "1px",
+                "background": "currentColor",
+                "left": "0",
+                "bottom": "0"
+              },
+              "&:hover": {
+                "&:before": {
+                  "width": "0"
+                }
+              }
+            },
+            ".copyright": {
+              "color": "#232323"
+            },
+            ".center": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "flex-end",
+              ".row-links-soc": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "flex-end",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                },
+                "@media (max-width: 992px)": {
+                  "justify-content": "center"
+                }
+              }
+            },
+            "p": {
+              "@media (max-width: 992px)": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "footer2",
+          "_sourceTheme": "powerm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"powerm5 footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n    <header>Show/Hide</header>\n    <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"showLinks\">\n    <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n    <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n    <input type=\"checkbox\" title=\"Line\" name=\"showLine\" checked>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" parallax>\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Fallback Image</header>\n    <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/powerm5/components/_images/video/video1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n\n  <div class=\"container-fluid\">\n    <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n      <div class=\"col-12\">\n        <div class=\"line\" mbr-if=\"showLine\">\n        </div>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg center\">\n        <p class=\"mbr-fonts-style copyright\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" mbr-if=\"showCopy\">\n          © Copyright 2024-2026&nbsp;<a href=\"https://ela-tourism-technologies.com\" class=\"text-primary\">A.S ELA TOURISM TECHNOLOGIES LTD </a>- All Rights Reserved</p>\n      </div>\n      <div class=\"col-12 col-md-6 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\n        <div class=\"row-links\">\n          <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"privacy-policy.html#top\" class=\"text-black text-primary\">Privacy Policy</a></li>\n\n\n\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Terms of Service</a></li>\n            <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"#\" class=\"text-black\">Cookies Settings</a></li>\n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_cid": "vrN8XQENLm",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer2-35"
+        },
+        {
+          "alias": "eb-chats-widget",
+          "_isSecondary": true,
+          "_styles": {},
+          "_name": "eb-chats-widget",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"elb-widgets eb-chats-widget\" group=\"Chat\" once=\"chat\"><div style=\"max-width:600px;margin:0 auto;padding: 70px 0;\">    <div class=\"popupChatsPlaceholder\">        <style>            .popupChatsPlaceholder h2::after {content: \"\"; position: absolute; left: 0; bottom: 0; height: 100%; width: 100%;}        </style>        <h2>POPUP CHAT WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2>        <img src=\"../eb-chats-widget/assets/posts.jpg\">    </div></div></section>",
+          "safe": {
+            "id": 25074,
+            "code": "<script src=\"https://s.electricblaze.com/widget.js\" defer></script>\n<div class=\"electricblaze-id-2UhxBwY\"></div>"
+          },
+          "_cid": "vrN8XR0qqw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": "chat",
+          "_params": {},
+          "_anchor": "eb-chats-widget-36"
         }
       ]
     }
